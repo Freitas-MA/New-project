@@ -1,7 +1,7 @@
 import './App.css';
-import { useState, useEffect } from 'react'; 
+import { useEffect } from 'react'; 
 import React from 'react';
-
+import './'
 //646993ce
 
 const API_URL = 'https://www.omdbapi.com/?apikey=646993ce';
@@ -14,6 +14,6 @@ const App = () => {
   }
   useEffect(() => {
     searchMovies('avengers');
-  }
+  })
 }
 export default App;
